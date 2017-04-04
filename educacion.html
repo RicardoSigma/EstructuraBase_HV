@@ -7,9 +7,10 @@
     <meta name="keywords" content="hoja de vida Ricardo Colín">
     <meta name="description" content="Se presenta la hoja de vida electrónica de Ricardo Colín">
     <title>C.V. Ricardo Colín</title>
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
-  <body>
-    <header>
+  <body id="Contenedor">
+    <header id="Encanbezado">
       <svg width="400px" height="150px" viewbox="0 0 400 150">
         <title>Logo RCR</title>
         <desc>Se muestra un logo con las inciales RCR</desc>
@@ -39,9 +40,9 @@
     </header>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="educacion.html">Educación</a></li>
-        <li><a href="experiencia.html"> Experiencia</a></li>
+        <li class="itemIndice"><a class="enlace" href="index.html">Inicio</a></li>
+        <li class="itemIndice"><a class="enlace" href="educacion.html">Educación</a></li>
+        <li class="itemIndice"><a class="enlace" href="experiencia.html"> Experiencia</a></li>
       </ul>
     </nav>
     <section>
@@ -82,7 +83,7 @@
           <legend><h2>Agregar Estudios</h2></legend>
           <p>
             <label for="año"><strong>Año:</strong></label>
-            <input type="number" max="2017" min="1988" required autofocus>
+            <input type="number" max="2017" min="1988" required autofocus="">
           </p>
           <p>
             <label for="institucion"><strong>Institución:</strong></label>
@@ -105,16 +106,21 @@
     </section>
     <footer>
       <p>Derechos Reservados</p>
-      <ul>
-        <li><strong>Correo:</strong> ruben.ricardo.colin@gmail.com</li>
-        <li><strong>Telefono:</strong> 5547174658</li>
-        <li><strong>Dirección:</strong> Priv. niño de Jesus, Tlalpan,CDMX</li>
-        <li>
-          <a href="mailto:ruben.ricardo.colin@gmail.com">Contacto</a> |
-          <a href="https://www.facebook.com/MASTERPIECE88" target="_blank">facebook</a>|
-          <a href="https://www.linkedin.com/in/ricardocolinr/" target="_blank">Linkedin</a>
-        </li>
-      </ul>
+      <p>
+        <strong>Correo:</strong>
+        ruben.ricardo.colin@gmail.com
+      </p>
+      <p>
+        <strong>Telefono:</strong> 5547174658
+      </p>
+      <p>
+        <strong>Dirección:</strong> Priv. niño de Jesus, Tlalpan,CDMX
+      </p>
+      <p>
+        <a href="mailto:ruben.ricardo.colin@gmail.com">Contacto</a> |
+        <a href="https://www.facebook.com/MASTERPIECE88" target="_blank">facebook</a>|
+        <a href="https://www.linkedin.com/in/ricardocolinr/" target="_blank">Linkedin</a>
+      </p>
     </footer>
   </body>
 </html>

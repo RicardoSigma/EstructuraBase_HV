@@ -1,0 +1,51 @@
+body{
+  background-color: #587992;
+  font-family: helvetica;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+footer{
+  margin-top: 20px;
+  border-top: solid 3px black;
+  text-align: center;
+}
+img{
+  border-radius: 10px;
+}
+#Contenedor{
+  font-family: Arial;
+  font-size: 16px;
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+}
+.itemIndice{
+  list-style-type: upper-roman;
+}
+.enlace{
+  color: white;
+}
+a[href $="html" ]
+{
+  color: blue;
+}
+img[src $="jpg"], img[src $="png"]{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+*{
+  margin: 1vh 1vw;
+}
+h1 + h2{
+  text-decoration: underline;
+}
+h2 ~ p{
+  text-align: justify;
+}
+article > h2{
+  text-decoration: underline;
+}
+ul li{
+  list-style-type: circle; 
+}
